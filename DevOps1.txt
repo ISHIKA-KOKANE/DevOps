@@ -1,0 +1,52 @@
+cse@cse-OptiPlex-3020:~$ cd isha
+cse@cse-OptiPlex-3020:~/isha$ git --version
+git version 2.34.1
+cse@cse-OptiPlex-3020:~/isha$ git config --global user.name "Ishika"
+cse@cse-OptiPlex-3020:~/isha$ git config --global user.email "ishikakokane@gmail.com"
+cse@cse-OptiPlex-3020:~/isha$ git status
+On branch master
+nothing to commit, working tree clean
+
+cse@cse-OptiPlex-3020:~/isha$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	axy
+
+nothing added to commit but untracked files present (use "git add" to track)
+cse@cse-OptiPlex-3020:~/isha$ git add .
+cse@cse-OptiPlex-3020:~/isha$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   axy
+
+cse@cse-OptiPlex-3020:~/isha$ git commit -m "hello"
+[master 8747585] hello
+ 1 file changed, 1 insertion(+)
+ create mode 100644 axy
+cse@cse-OptiPlex-3020:~/isha$ git log
+commit 8747585626c2403899985afb90cd0ec3f9ce7812 (HEAD -> master)
+Author: Ishika <ishikakokane@gmail.com>
+Date:   Tue Jul 30 13:32:17 2024 +0530
+
+    hello
+
+commit 0f1359eee51ee0db8a3f10620d46aae831a6de50
+Author: Ishika <ishika@gmail.com>
+Date:   Mon Jul 22 12:25:28 2024 +0530
+
+    hi
+
+commit db973542bd92de36aec4fce1119681b0a546a26d
+Author: Ishika <gdvuyre@gmail.com>
+Date:   Mon Jul 22 12:18:37 2024 +0530
+
+    hdgvweyf
+
+commit a44fb762940bc7d0a023858d5db4a655cc520522
+Author: Ishika <gdvuyre@gmail.com>
+Date:   Mon Jul 22 12:17:01 2024 +0530
+
+    mew
+
